@@ -74,7 +74,7 @@ terraform destroy -auto-approve
 ![Curling Private EC@](screenshots/curling-private-ec2.png)
 
 
-# Curling from the Public EC2 as there is no access to the private subnet from outside the VPC
+#### Curling from the Public EC2 as there is no access to the private subnet from outside the VPC
 
 ### SSH into Private EC2 from Public EC2
 ![SSH Private EC2](screenshots/ssh-private-ec2.png)
