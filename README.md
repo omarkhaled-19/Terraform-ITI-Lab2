@@ -59,6 +59,24 @@ terraform apply -auto-approve
 terraform destroy -auto-approve
 ```
 
+## 📸 Screenshots
 
+### Terraform Outputs
+![Terraform Outputs](screenshots/outputs.png)
 
+### Curling Publing EC2 webserver
+![Curling Public EC@](screenshots/curling-public-ec2.png)
+
+### SSH into Public EC2
+![SSH Public EC2](screenshots/ssh-public-ec2.png)
+
+### Curling Private EC2 fron Public EC2
+![Curling Private EC@](screenshots/curling-private-ec2.png)
+Curling from the Public EC2 as there is no access to the private subnet from outside the VPC
+
+### SSH into Private EC2 from Public EC2
+![SSH Private EC2](screenshots/ssh-private-ec2.png)
+
+### Internet access for the Private EC2 through NAT Gateway
+![Private EC2 Internet Access](screenshots/private-ec2-internet-access.png)
 
