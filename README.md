@@ -11,7 +11,7 @@ This repository contains the Terraform configuration for **Lab 2**, where we dep
 - `terraform.tfvars` – Variable values (excluded from GitHub if it contains sensitive values).
 - `outputs.tf` – Terraform outputs (public/private IPs, NAT gateway EIP, etc.).
 - `terraform.tf` – Additional Terraform configuration if needed (e.g., provider).
-- `Terraform-lab2.pdf` – Lab report/documentation.
+- `Terraform-lab2.pdf` – Infrastructure Architecture.
 
 ---
 
@@ -49,6 +49,16 @@ terraform init
 terraform plan
 terraform apply -auto-approve
 ```
+
+### 3. The infrastructure is deployed. 
+ - Curl the public IP of the Public EC2 instance to make sure the webserver is running
+ - SSH into the Public EC2 and curl the private ec2 private ip to make sure the webserver is running and validate that the nat gateway was utilized
+
+### 4. Destroy the resources after finishing the Lab
+```bash
+terraform destroy -auto-approve
+```
+
 
 
 
